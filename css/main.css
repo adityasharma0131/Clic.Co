@@ -85,6 +85,20 @@ body {
   padding: 0;
 }
 
+::-webkit-scrollbar{
+    height: 1rem;
+    width: 1rem;
+}
+
+::-webkit-scrollbar-track{
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #0188fd;
+
+    border-radius: 3rem;
+}
 /* ------------------------------------------------------------------- 
  * ## links
  * ------------------------------------------------------------------- */
@@ -3669,3 +3683,43 @@ footer .row {
 }
 
 /*# sourceMappingURL=main.css.map */
+
+
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-style: solid;
+    border-color: transparent;
+    flex-wrap: wrap;
+}
+
+.profile img{
+    border-radius: 3%;
+
+}
+
+.profile1,
+.profile2 {
+  position: relative;
+}
+
+
+.overlay-text h4{
+    color: white;
+}
+
+
+  .overlay-text {
+    position: absolute;
+    top: 82%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #BDC3C9;
+    padding: 5px;
+    border-radius: 5px;
+  }
+
+
+
+  
